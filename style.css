@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+}
+.logo-container{
+    text-align:  center;
+    margin-top: 5rem;
+}
+
+.hero{
+    display: flex;
+    flex-direction: horizontal;
+    margin-top: 4rem;
+    overflow: hidden;
+}
+.leftimage{
+    width: 24rem;
+    height: 19rem;
+    margin-left: -2rem;
+    overflow: hidden;
+}
+
+.hero-content{
+    text-align: center;
+    margin-left: 8rem;
+    margin-right: 4rem;
+    align-self: center;
+}
+
+.main-heading{
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 4rem;
+    width: 445px;
+    height: 128px;
+    margin-left: 4rem;
+}
+.hero-body{
+    margin-top: 2.125rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    color: #87879D;
+
+    width: 33.75rem;
+}
+
+.button{
+    margin-top: 2rem;
+}
+
+.button1{
+    font-size: 1rem;
+    line-height: 1.625rem;
+    font-weight: 900;
+    padding: 1rem 2.5rem;
+    border-radius: 29px;
+    border: none;
+    background-color: #4D96A9;
+    color: #ffff;
+    margin: 1rem;
+}
+.button1 span{
+    color: #8FE3F9;
+}
+
+.button2{
+    font-size: 1rem;
+    line-height: 1.625rem;
+    font-weight: 900;
+    padding: 1rem 2.5rem;
+    border-radius: 29px;
+    border: none;
+    background-color: #855FB1;
+    color: #ffff;
+}
+    
+.rightimage{
+    width: 24rem;
+    height: 19rem;
+    margin-left: 6rem;
+    overflow: hidden;
+}
+.line{
+    border-left: 1px solid #87879D;
+    height: 84px;
+}
+.circle{
+    border: 1px solid #87879D;
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    align-content: center;
+    background-color: #ffff;
+    z-index: 1;
+}
+.pagenumber1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+.images{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    margin-left: 12rem;
+    column-gap: 6rem;
+    margin-top: 4rem;
+}
+.img1{
+    width: 15.938rem;
+    height: 15.125rem;
+    border-radius: 0.5rem;
+}
+
+.middle-content{
+    text-align: center;
+    width: 33.75rem;
+    height: 15rem;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.middle-content1{
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.625rem;
+    letter-spacing: 0.25rem;
+    color: #4D96A9;
+}
+
+.middle-content2{
+    width: 27.813rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 2.75rem;
+    margin-top: 1rem;
+    color: #28283D;
+    margin-left: 3rem;
+}
+
+.middle-content3{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    width: 33.75rem;
+    color: #87879D;
+    text-align: center;
+}
+
+.pagenumber2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 6rem;
+    margin-top: 6.6875rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 308px;
+    position: relative;
+    padding: 0px 160px;
+    background-color: #4D96A9;
+    margin-top: -1.5rem;
+}
+
+.footer::before{
+    content: "";
+    background-image: url("./assets/desktop/image-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.1;
+}
+
+.footer-text1{
+        font-size: 2.5rem;
+        font-weight: 900;
+        color: #ffff;
+        line-height: 2.75rem;
+        width: 21.875rem;
+}
+
+.footer-text2{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #ffff;
+    width: 21.875rem;
+    line-height: 1.625rem;
+}
+
+.footer-button{
+        font-size: 1rem;
+        font-weight: 900;
+        line-height: 1.625rem;
+        width: 12.063rem;
+        height: 3.625rem;
+        border-radius: 29px;
+        color: #ffff;
+        background-color: #855FB1;
+        border-style: none;
+        position: relative;
+}
+
+.footer-button span{
+    color: #D9B8FF;
+}
+
+.footer-button:hover{
+    background-color: #B18BDD;
+    cursor: pointer;
+}
